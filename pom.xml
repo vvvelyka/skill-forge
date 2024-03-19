@@ -13,10 +13,14 @@
     <artifactId>skill-forge</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>skill-forge</name>
     <description>Project for practice</description>
+
+    <modules>
+        <module>util</module>
+    </modules>
 
     <properties>
         <java.version>17</java.version>
